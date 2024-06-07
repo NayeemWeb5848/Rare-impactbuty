@@ -1,0 +1,899 @@
+body {
+    background: #fdfbf8;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    font-family: Ogg Regular;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* =========================================
+                Common css End
+    ======================================= */
+
+
+
+/* =========================================
+                Rare impact banner Start
+    ======================================= */
+#rare_impact_banner {
+    background: #C23057;
+    padding: 0px 0px;
+}
+
+#rare_impact_banner2 {
+    background: #700E37;
+    padding: 60px 0px;
+}
+
+#rare_impact_banner .rare_impact_banner_img img {
+    width: 100%;
+    height: 100%;
+}
+
+#rare_impact_banner .rare_impact_banner_text .rare_impact_banner_texth1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+#rare_impact_banner .rare_impact_banner_text {
+    margin: 100px 0 0 86px;
+}
+
+#rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp {
+    font-size: 24px;
+    text-transform: uppercase;
+    max-width: 500px;
+    line-height: 1.4;
+    letter-spacing: .04em;
+    color: #ffffff;
+    font-family: sans-serif;
+    position: relative;
+}
+
+#rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp::after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -30px;
+    width: 1000%;
+    height: 1px;
+    background: #ffffff;
+}
+
+#rare_impact_banner2 .rare_impact_banner_bottom_text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h6 {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+#rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h2 {
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 2.88px;
+    font-family: sans-serif;
+    padding-top: 18px;
+}
+
+#rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_p {
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0.16px;
+    font-family: sans-serif;
+    padding-top: 18px;
+}
+
+#banner_footer {
+    background: #fff7ef;
+    padding: 30px 0;
+}
+
+#banner_footer .banner_footer_text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#banner_footer .banner_footer_text .banner_footer_text_p {
+    font-size: 16px;
+    letter-spacing: .16px;
+    font-family: sans-serif;
+    color: #700E37;
+}
+
+#banner_footer .banner_footer_text .banner_footer_text_p a {
+    font-size: 16px;
+    letter-spacing: .16px;
+    font-family: sans-serif;
+    color: #700E37;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* =========================================
+Rare impact banner End
+======================================= */
+
+
+
+/* =========================================
+            Report Part Start
+======================================= */
+#reports_part {
+    padding-top: 5rem;
+}
+
+#reports_part .reports_part_header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reports_part .reports_part_header .reports_part_header_h6 {
+    color: #700E37;
+    ;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+#reports_part .reports_part_header .reports_part_header_h2 {
+    color: #700E37;
+    font-size: 36px;
+    letter-spacing: 2.88px;
+    font-family: sans-serif;
+    padding-top: 18px;
+}
+
+#reports_part .reports_text {
+    padding-top: 30px;
+}
+
+#reports_part .reports_text .reports_text_h3 {
+    font-size: 36px;
+}
+#reports_part .reports_img .reports_img_p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #700E37;
+    display: none;
+}
+
+#reports_part .reports_img {
+    padding-top: 30px;
+}
+
+#reports_part .reports_img a {
+    color: #700E37;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    font-weight: 500;
+}
+
+#reports_part .reports_img a:hover {
+    text-decoration: underline;
+}
+
+#reports_part .reports_img .fast_a_line {
+    color: #700E37;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 15px;
+}
+
+#reports_part .reports_img .fast_a_line::after {
+    color: #700E37;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-weight: 500;
+    position: absolute;
+    content: '';
+    left: -9px;
+    top: 16px;
+    width: 1px;
+    height: 32px;
+    background: #700E37;
+}
+
+#reports_part .reports_img img {
+    width: 100%;
+    height: 100%;
+}
+
+#reports_part .reports_text {
+    margin-top: 7rem;
+}
+
+#reports_part .reports_text .reports_text_h3 {
+    font-size: 36px;
+    color: #700E37;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+#reports_part .reports_text .reports_text_p {
+    font-size: 17px;
+    letter-spacing: .16px;
+    color: #700E37;
+    font-family: sans-serif;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+#reports_part .reports_text a {
+    padding: 7px 40px;
+    text-align: center;
+    border: 1px solid #835059;
+    color: #835059;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin-top: 30px;
+    transition: all linear .2s;
+}
+
+#reports_part .reports_text a:hover {
+    background: #835059;
+    color: #fff7ef;
+}
+
+#reports_part .reports_text a:hover i {
+    margin-left: 10px;
+}
+
+#reports_part .reports_text a i {
+    margin-left: 6px;
+    font-size: 14px;
+    transition: all linear .2s;
+}
+
+
+/* =========================================
+        Report Part End
+======================================= */
+
+
+/* =========================================
+        meet_our_part Part Start
+======================================= */
+#meet_our_part .tt {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#meet_our_part .meet_our_part_header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#meet_our_part {
+    background: #700E37;
+    padding: 60px 0;
+    margin-top: 5rem;
+}
+
+#meet_our_part .meet_our_img img {
+    width: 85%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#meet_our_part .meet_our_img .meet_our_img_h3 {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 1.5em 0 .5em;
+    font-family: sans-serif;
+}
+
+#meet_our_part .meet_our_img .meet_our_img_p {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+#meet_our_part .meet_our_part_header .meet_our_part_header_h6 {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+
+}
+
+#meet_our_part .meet_our_part_header .meet_our_part_header_h2 {
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 2.88px;
+    font-family: sans-serif;
+    padding-top: 18px;
+}
+
+#meet_our_part .meet_our_part_header .meet_our_part_header_p {
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0.16px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    margin-bottom: 3rem;
+}
+
+
+/* =========================================
+       meet_our_part Part End
+======================================= */
+
+
+/* =========================================
+       discover_part Start
+======================================= */
+#discover_part {
+    padding-top: 5rem;
+}
+
+#discover_part .discover_part_header .discover_part_header_h6 {
+    color: #700E37;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+
+}
+
+#discover_part .discover_part_header .discover_part_header_h2 {
+    color: #700E37;
+    font-size: 36px;
+    letter-spacing: 2.88px;
+    font-family: sans-serif;
+    padding-top: 18px;
+}
+
+#discover_part .discover_part_header .discover_part_header_p span {
+    font-weight: 600;
+    display: block;
+}
+
+#discover_part .discover_part_header .discover_part_header_p {
+    color: #700E37;
+    font-size: 17px;
+    letter-spacing: 0.16px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    margin-bottom: 3rem;
+}
+
+#discover_part .tt {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#discover_part .discover_part_header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#discover_part .discover_box_text {
+    border: 2px solid #700E37;
+    padding: 53px 76px 42px 52px;
+    text-align: left !important;
+}
+
+#discover_part .discover_box_text .discover_box_text_h6 {
+    color: #700E37;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+#discover_part .discover_box_text .discover_box_text_h3 {
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #700E37;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+#discover_part .discover_box_text .discover_box_text_p {
+    font-size: 15px;
+    letter-spacing: .16px;
+    color: #700E37;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+#discover_part .discover_box_text .discover_box_text_p a {
+    color: #700E37;
+}
+
+#discover_part .discover_box_text .discover_box_text_p a:hover {
+    text-decoration: underline;
+}
+
+#discover_part .ri-resources__resource-cta {
+    padding-top: 30px;
+}
+
+
+#discover_part .ri-resources__resource-cta .discover_box_text_button {
+    padding: 3px 41px;
+    border: 2px solid #700E37;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: .3s;
+    z-index: 1;
+    font-family: sans-serif;
+    color: #700E37;
+}
+
+#discover_part .ri-resources__resource-cta .discover_box_text_button .fa-up-right-from-square {
+    margin-left: 6px;
+    font-size: 13px;
+}
+
+#discover_part .ri-resources__resource-cta .discover_box_text_button::before {
+    content: '';
+    width: 0;
+    height: 1000%;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #700E37;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+#discover_part .ri-resources__resource-cta .discover_box_text_button:hover::before {
+    width: 105%;
+}
+
+#discover_part .ri-resources__resource-cta .discover_box_text_button:hover {
+    color: #ffffff;
+}
+
+#discover_part .discover_box_footer_text {
+    padding-top: 4rem;
+}
+
+#discover_part .discover_box_footer_text .discover_box_footer_text .discover_box_footer_text_p {
+    font-size: 16px;
+    letter-spacing: .16px;
+    color: #700E37;
+    font-family: sans-serif;
+}
+
+
+
+/* =========================================
+      discover_part End
+======================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 72px 63px;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_texth1 {
+        font-size: 34px;
+    }
+    
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp {
+        font-size: 20px;
+        padding: 0px 8px;
+        margin: 0 0 0 161px;
+    }
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 36px -7px;
+        text-align: center;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp::after {
+     display: none;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h2 {
+        font-size: 34px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h6 {
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_p {
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    #banner_footer .banner_footer_text .banner_footer_text_p {
+        font-size: 26px;
+    }
+    #banner_footer .banner_footer_text .banner_footer_text_p a {
+        font-size: 24px;
+    }
+    #reports_part .reports_part_header .reports_part_header_h2 {
+        font-size: 35px;
+    }
+    #meet_our_part .meet_our_img img {
+        width: 58%;
+    }
+    #reports_part .reports_text a {
+        padding: 7px 116px;
+    }
+    #reports_part .reports_img .reports_img_p {
+        display: block;
+    }
+    
+    #reports_part .reports_text {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    #reports_part .reports_text .reports_text_p {
+        text-align: center;
+    }
+    
+    #meet_our_part .meet_our_img {
+        margin: 17px 0;
+    }
+    
+    #meet_our_part .meet_our_part_header .meet_our_part_header_h2 {
+        font-size: 27px;
+    }
+    #meet_our_part .meet_our_part_header .meet_our_part_header_p {
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    
+    #discover_part .discover_part_header .discover_part_header_h2 {
+        font-size: 28px;
+    }
+    #discover_part .discover_part_header .discover_part_header_p {
+        font-size: 15px;
+    }
+    #discover_part .discover_box_text .discover_box_text_h6 {
+        line-height: 24px;
+    }
+    #discover_part .discover_box_text {
+        padding: 44px 15px 42px 19px;
+    }
+    #discover_part .discover_box_footer_text .discover_box_footer_text .discover_box_footer_text_p {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+    #discover_part .discover_box_footer_text {
+        padding-top: 2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 72px 63px;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_texth1 {
+        font-size: 34px;
+    }
+    
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp {
+        font-size: 15px;
+        padding: 0 40px;
+    }
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 36px -7px;
+        text-align: center;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp::after {
+     display: none;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h2 {
+        font-size: 29px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h6 {
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_p {
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    #banner_footer .banner_footer_text .banner_footer_text_p {
+        font-size: 14px;
+    }
+    #reports_part .reports_part_header .reports_part_header_h2 {
+        font-size: 25px;
+    }
+    #reports_part .reports_text a {
+        padding: 7px 116px;
+    }
+    #reports_part .reports_img .reports_img_p {
+        display: block;
+    }
+    
+    #reports_part .reports_text {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    #reports_part .reports_text .reports_text_p {
+        text-align: center;
+    }
+    
+    #meet_our_part .meet_our_img {
+        margin: 17px 0;
+    }
+    
+    #meet_our_part .meet_our_part_header .meet_our_part_header_h2 {
+        font-size: 27px;
+    }
+    #meet_our_part .meet_our_part_header .meet_our_part_header_p {
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    
+    #discover_part .discover_part_header .discover_part_header_h2 {
+        font-size: 28px;
+    }
+    #discover_part .discover_part_header .discover_part_header_p {
+        font-size: 15px;
+    }
+    #discover_part .discover_box_text .discover_box_text_h6 {
+        line-height: 24px;
+    }
+    #discover_part .discover_box_text {
+        padding: 44px 15px 42px 19px;
+    }
+    #discover_part .discover_box_footer_text .discover_box_footer_text .discover_box_footer_text_p {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+    #discover_part .discover_box_footer_text {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 433.992px) {
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 72px 63px;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_texth1 {
+        font-size: 34px;
+    }
+    
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp {
+        font-size: 15px;
+        padding: 0 40px;
+    }
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 36px -7px;
+        text-align: center;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp::after {
+     display: none;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h2 {
+        font-size: 29px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h6 {
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_p {
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    #banner_footer .banner_footer_text .banner_footer_text_p {
+        font-size: 14px;
+    }
+    #reports_part .reports_part_header .reports_part_header_h2 {
+        font-size: 25px;
+    }
+    #reports_part .reports_text a {
+        padding: 7px 73px;
+    }
+    #reports_part .reports_img .reports_img_p {
+        display: block;
+    }
+    
+    #reports_part .reports_text {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    #reports_part .reports_text .reports_text_p {
+        text-align: center;
+    }
+    
+    #meet_our_part .meet_our_img {
+        margin: 17px 0;
+    }
+    
+    #meet_our_part .meet_our_part_header .meet_our_part_header_h2 {
+        font-size: 27px;
+    }
+    #meet_our_part .meet_our_part_header .meet_our_part_header_p {
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    
+    #discover_part .discover_part_header .discover_part_header_h2 {
+        font-size: 28px;
+    }
+    #discover_part .discover_part_header .discover_part_header_p {
+        font-size: 15px;
+    }
+    #discover_part .discover_box_text .discover_box_text_h6 {
+        line-height: 24px;
+    }
+    #discover_part .discover_box_text {
+        padding: 44px 15px 42px 19px;
+    }
+    #discover_part .discover_box_footer_text .discover_box_footer_text .discover_box_footer_text_p {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+    #discover_part .discover_box_footer_text {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 393.852px) {
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 72px 63px;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_texth1 {
+        font-size: 34px;
+    }
+    
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp {
+        font-size: 15px;
+        padding: 0 40px;
+    }
+    #rare_impact_banner .rare_impact_banner_text {
+        margin: 27px 0 36px -7px;
+        text-align: center;
+    }
+    #rare_impact_banner .rare_impact_banner_text .rare_impact_banner_textp::after {
+     display: none;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h2 {
+        font-size: 29px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_h6 {
+        font-size: 15px;
+        padding-bottom: 6px;
+    }
+    #rare_impact_banner2 .rare_impact_banner_bottom_text .rare_impact_banner_bottom_text_p {
+        font-size: 14px;
+        padding-top: 28px;
+    }
+    #banner_footer .banner_footer_text .banner_footer_text_p {
+        font-size: 14px;
+    }
+    #reports_part .reports_part_header .reports_part_header_h2 {
+        font-size: 30px;
+    }
+    #reports_part .reports_img .reports_img_p {
+        display: block;
+    }
+    
+    #reports_part .reports_text {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    #reports_part .reports_text .reports_text_p {
+        text-align: center;
+    }
+    
+    #meet_our_part .meet_our_img {
+        margin: 17px 0;
+    }
+    
+    #meet_our_part .meet_our_part_header .meet_our_part_header_h2 {
+        font-size: 27px;
+    }
+    #meet_our_part .meet_our_part_header .meet_our_part_header_p {
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    
+    #discover_part .discover_part_header .discover_part_header_h2 {
+        font-size: 28px;
+    }
+    #discover_part .discover_part_header .discover_part_header_p {
+        font-size: 15px;
+    }
+    #discover_part .discover_box_text .discover_box_text_h6 {
+        line-height: 24px;
+    }
+    #discover_part .discover_box_text {
+        padding: 44px 15px 42px 19px;
+    }
+    #discover_part .discover_box_footer_text .discover_box_footer_text .discover_box_footer_text_p {
+        font-size: 12px;
+    }
+    
+    #discover_part .discover_box_footer_text {
+        padding-top: 3rem;
+    }
+}
+/* =========================================
+                Responsive css End
+    ======================================= */
